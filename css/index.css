@@ -1,0 +1,187 @@
+html {
+
+}
+
+body {
+	margin: 0em;
+}
+
+#container {
+	height: 30em;
+	width: 100%;
+	background: url(../img/page/main_bg.jpg);
+}
+
+#banner {
+	background: url(../img/page/header-bg.png) top center repeat-x;
+	height: 109px;
+	width: 100%;
+}
+
+#centered_content {
+	height: 350px;
+	width: 100%;
+	background: url(../img/page/header2-bg.jpg) top center repeat-x;
+}
+
+#content {
+	margin: 0 auto;
+	height: 350px;
+	width: 100%;
+	position: relative;	
+}
+
+#footer_shadow {
+	background: url(../img/page/footer-bg.png) top center repeat-x;
+	height: 109px;
+	width: 100%;
+	position: absolute;
+	top: 30em;
+	
+}
+
+#header {
+	margin: 0 auto;
+	width: 490px;
+}
+
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nexus {
+	border: 0px;
+}
+
+#cm {
+	border: 0px;
+	position: relative;
+	bottom: -.45em;
+}
+
+#mainForm {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	top: 21.85em;
+}
+
+.selectDiv {
+	position: relative;
+	float: left;
+}
+
+.selectDiv select {
+ 	background: #1F1F1F;
+	color: #7D8D94;
+	font-size: 12px;
+	border: 0px;
+	
+	position: relative;
+	float: left;
+	
+}
+
+#result {
+	position: static;
+	clear: 	both;
+	margin: 0 auto;
+	width: 490px;
+	height: 350px;
+	overflow: hidden;
+}
+
+#resultTextDiv {
+	position: relative;
+	float: right;
+	width: 15em;
+	height: 8em;
+	top: 2.75em;
+	left: 1em;
+	font-family: arial;
+	text-shadow: 0px 1px 1px #000;
+	background: rgba(0, 0, 0, 0.5);
+	color: #7D8D94;
+	
+	-moz-box-shadow: 3px 3px 10px #000;
+	-webkit-box-shadow: 3px 3px 10px black;
+	box-shadow: 3px 3px 10px black;
+}
+
+#resultTextUL {
+	font-size: .75em;
+	list-style-type:square
+}
+
+#downloadLinkSpan {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#downloadLink {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #000;
+	margin-left: -20px;
+}
+
+#downloadLink:hover {
+	color: #20A3D3;
+	text-decoration: none;
+	text-shadow: 0px 1px 1px #000;
+	
+}
+
+#imported_image  {
+	left: 2em;
+}
+
+#smsForm {
+	position: relative;
+	float: right;
+	width: 100%;
+	top: 3em;
+	padding-top: 2em;
+	height: 3.75em;
+	
+	font-family: arial;
+	text-shadow: 0px 1px 1px #000;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	
+	-moz-box-shadow: 3px 3px 10px #000;
+	-webkit-box-shadow: 3px 3px 10px black;
+	box-shadow: 3px 3px 10px black;
+
+}
+
+#phoneInput {
+	
+	width: 10em;
+	top: 2.5em;
+	margin-left: 3em;
+
+	text-align: center;
+}
+
+#phoneInputLabel {
+	position: relative;
+	float: left;
+	width: 14em;
+	text-align: center;
+	padding-top: .5em;
+	top: -3.5em;
+
+}
+
+#smsSubmit {
+	width: 10.5em;
+	margin-left: 2.85em;
+	top: -2em;
+
+	position: relative;
+}

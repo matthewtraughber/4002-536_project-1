@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>536 Project 1 - MET</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		
+		<script>		
+			// IE & MAC detection
+			if (navigator.userAgent.indexOf("Mac")!=-1 && document.all) {				
+				alert("Please download a modern browser, as IE for the Mac will not properly display this site");
+				window.open("https://www.google.com/intl/en/chrome/browser/", _self);
+			}
+			
+			// Deprecated browser detection
+			if (document.getElementById) {
+	
+			} else {
+				alert("Please download a modern browser, as your deprecated browser will not properly display this site.");
+				window.open("https://www.google.com/intl/en/chrome/browser/", "_self");
+			}	
+			
+		</script>
+		
+		<script>
+			var ie7 = false;
+		</script>
+
+		<!--[if lt IE 8]>
+			<script>
+				var ie7 = true;
+			</script>
+			
+			<style type=text/css>
+				#mainForm {
+					top: 5em;
+					left: 5em;
+					width: 100%;
+				}
+				
+				#imported_image  {
+					margin-top: 400px;
+					margin-left: 2em;
+				}
+				
+				#result {
+					position: static;
+					clear: 	both;
+					margin-top: -4.5em;
+					width: 490px;
+					height: 350px;
+				}
+				
+				#resultTextDiv {
+					margin-top: 0em;
+					padding-bottom: .5em;
+					padding-top: .5em;
+				}
+				
+				#resultTextDiv {
+					background: #000;
+				}
+				
+				#smsForm {
+					background: #000;
+					top: 2em;
+				}
+				
+			</style>
+			
+		<![endif]-->
+		<!--[if lt IE 9]>	
+			<style type=text/css>
+				#resultTextDiv {
+					background: #000;
+				}
+				
+				#smsForm {
+					background: #000;
+				}
+			</style>
+		<![endif]-->
+		
+		<script type="text/javascript" src="js/form.js"></script>
+		<script type="text/javascript" src="js/json2.js"></script>
+		<script type="text/javascript" src="js/cookies.js"></script>
+	</head>
+
+	<body onload="init();">
+		<div id="banner">
+			<div id="header">
+				<a href="index.html">
+					<img src="img/page/cm_logo.png" id="cm" alt="cyanogen mod" />
+					<img src="img/page/nexus_logo_small.png" id="nexus" alt="nexus" />	
+				</a>
+			</div>
+		</div>
+		<div id="container">
+			
+			<div id="centered_content">
+				<div id="content">
+
+				</div>	
+				
+				<div id="footer_shadow">
+					
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
